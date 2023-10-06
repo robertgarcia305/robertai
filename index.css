@@ -1,14 +1,29 @@
+@font-face {
+  font-family: martian;
+  src: url("./fonts/MartianMono-Medium.ttf");
+}
+
 * {
-    margin: 0px;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: sans-serif; 
-  }
-  
-  .top-section {
-    border: 1px solid black;
-  }
-  
-  
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: martian; 
+}
+
+.top-section {
+  border: 1px solid black;
+}
+
+input, button {
+  font-family: martian;
+}
+
+.body-wrap {
+  margin: 0px 5px;
+}
+
+img {
+  width: 30%;
+}
